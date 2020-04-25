@@ -8,6 +8,8 @@ import math
 # Variáveis de raio e altura da caixa.
 raio_caixa = float(input("Insira o valor do raio da caixa: "))
 altura_caixa = float(input("Insira o valor da altura da caixa: "))
-area_caixa = math.pi * (raio_caixa**2) * altura_caixa
-area_caixa = round(area_caixa, 4)
-print(f"O valor da área da caixa d'água é {area_caixa}.")
+# variável do caculo do volume da caixa.
+volume_caixa = math.pi * (raio_caixa**2) * altura_caixa
+volume_caixa = round(volume_caixa, 4)
+# Mostra o resultado.
+print(f"O valor da área da caixa d'água é {volume_caixa}.")
