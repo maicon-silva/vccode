@@ -1,4 +1,4 @@
-# Crie um algoritmo que recebe um valor de temperatura em Celsius e o converte para Fahrenheit.
+# Crie um algoritmo que recebe o valor da altura e do peso de uma pessoa e retorna seu IMC. 
 # Mostra a pessoa o que ela precisa escrever e pedi o nome.
 print("Seja bem-vindo ao calculo de IMC!")
 peso = float(input("Insira aqui o peso: "))
