@@ -13,7 +13,7 @@ elif primeiro_octeto >= 128 and primeiro_octeto < 192 :
     print("O IP pertence à classe B.")
 elif primeiro_octeto >= 192 and primeiro_octeto < 224 :
     print("O IP pertence à classe C.")
-elif primeiro_octeto >= 192 and primeiro_octeto < 240 :
+elif primeiro_octeto >= 224 and primeiro_octeto < 240 :
     print("O IP pertence à classe D.")
 elif primeiro_octeto >= 240 and primeiro_octeto <= 255 :
     print("O IP pertence à classe E.")
